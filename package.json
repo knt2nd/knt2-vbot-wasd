@@ -1,0 +1,15 @@
+{
+  "name": "knt2-vbot-wasd",
+  "version": "1.0.0",
+  "description": "WASD commands for Kanata 2nd Voice Bot",
+  "author": "Kanata",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-process-windows": "0.0.2",
+    "robotjs": "^0.6.0"
+  }
+}
