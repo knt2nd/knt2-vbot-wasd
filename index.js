@@ -45,7 +45,7 @@ export default {
     },
   },
   onlaunched: function(e) {
-    this.$d.ws = new WebSocket('ws://localhost:18100');
+    this.$d.ws = new WebSocket('ws://localhost:18110');
     this.$bot.timer.set('wasd', TIMEOUT, () => {
       this.$d.controlling = false;
       this.$bot.tts.speak('I have control');

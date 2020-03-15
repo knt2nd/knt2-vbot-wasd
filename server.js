@@ -17,7 +17,7 @@ const handlers = {
   },
 };
 
-const wss = new WebSocket.Server({ port: 18100 });
+const wss = new WebSocket.Server({ port: 18110 });
 wss.on('connection', ws => {
   console.log('Connected');
   ws.on('message', message => {
